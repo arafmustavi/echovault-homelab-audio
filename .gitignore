@@ -1,0 +1,7 @@
+__pycache__/
+*.pyc
+.env
+instance/*
+media/*
+!media/.gitkeep
+!instance/.gitkeep

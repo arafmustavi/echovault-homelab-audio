@@ -1,0 +1,1 @@
+{% extends 'base.html' %}{% block content %}<div class="panel job"><div class="spinner"></div><h1 id="jobStatus">Preparing import</h1><p id="jobMessage">Your homelab is processing the media.</p><a href="{{url_for('home')}}" id="done" class="button primary hidden">Open library</a></div><script>window.JOB_ID={{job_id|tojson}}</script>{% endblock %}
