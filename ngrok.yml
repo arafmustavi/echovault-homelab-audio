@@ -1,0 +1,17 @@
+version: "3"
+agent:
+  authtoken: ${NGROK_AUTHTOKEN}
+
+tunnels:
+  echovault:
+    addr: nginx:80          # your existing Nginx container (Docker service name)
+    proto: http
+    domain: https://linnie-fenestral-so.ngrok-free.dev  
+    # Optional edge auth so randoms can't reach your login page:
+    # traffic_policy:
+    #   on_http_request:
+    #     - actions:
+    #         - type: basic-auth
+    #           config:
+    #             credentials:
+    #               - "araf:choose-a-strong-password"

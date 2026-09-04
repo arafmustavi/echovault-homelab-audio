@@ -67,3 +67,5 @@ Requires Python 3.12+ and FFmpeg on PATH. Create `/data` and `/media`, or adjust
 
 ## Security notes
 This is a portfolio-quality MVP, not a completed public SaaS. Before exposing to the internet, add TLS, rate limits, account lockout, security headers, backups, monitoring, and a durable job queue. Keep yt-dlp patched because supported sites change frequently.
+
+Access it here : https://linnie-fenestral-so.ngrok-free.dev
