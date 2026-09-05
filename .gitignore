@@ -5,3 +5,8 @@ instance/*
 media/*
 !media/.gitkeep
 !instance/.gitkeep
+
+.buildenv/
+build/
+dist/EchoVault-Data
+ffmpeg_bin
